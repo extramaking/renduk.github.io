@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url('bg.jpg');
+    position: absolute; */
+    /* height: 100px;
+    width: 100px; */
+}
+.img img{
+    height: 60px;
+    width: 60px;
+    padding: 9px;
+    margin: 7px;
+    margin-left: 20px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    /* background-color: black;
+    height: 200px;
+    width: 200px;
+    opacity: 0.4;
+    z-index: -1; */
+    background-image: url('bg.jpg');
+    width: 100%;
+    height: 76px;
+}
+.nav ul{
+    padding-top: 10px;
+    display: flex;
+}
+.nav ul li{
+        list-style: none;
+        
+}
+.nav ul li a{
+    display: block;
+    padding: 19px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    font-family: monospace;
+}
+#img1{
+    height: 300px;
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.home1{
+    display: flex;
+    flex-direction: column;
+}
+.home h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 34px;
+    font-weight: bolder;
+    font-family: monospace;
+}
+.home1 p{
+    padding-left: 29px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.home1 img{
+    padding-left: 14px;
+}
+#qtag{
+    font-weight: lighter;
+}
+.about{
+    background-color: #f08080;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+.about h1{
+    text-align: center;
+    padding: 45px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+.container1{
+    display: flex;
+
+    flex-wrap: nowrap;
+}
+.video1{
+    padding: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.video2{
+    padding: 10px;
+    
+    padding-bottom: 30px;
+}
+.abouttypa{
+    margin: 15px;
+    color: black;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.abouttypa p{
+    padding-bottom: 20px;
+    
+}
+
+
+.btn{
+    display: inline-block;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+
+}
+.btn:hover{
+    color: blue;
+}
+.btn:visited{
+    color: whitesmoke;
+}
+.btn:active{
+    color: grey;
+}
+.container{
+    text-align: center;
+    padding: 40px;
+}
+.container h1{
+    text-align: center;
+}
+#h1-tag{
+    text-align: center;
+}
+#contact-us{
+    padding: 30px;
+}
+#p-tag{
+    text-align: left;
+}
+#img-tag2{
+    height: 292px;
+    width: 300px;
+    margin-top: 88px;
+margin-left: 20px;
+}
