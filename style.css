@@ -157,3 +157,10 @@ body{
     margin-top: 88px;
 margin-left: 20px;
 }
+#text-font{
+    font-family: amatic SC;
+    margin-left: 30px;
+}
+#logo{
+    align-items: center;
+}
